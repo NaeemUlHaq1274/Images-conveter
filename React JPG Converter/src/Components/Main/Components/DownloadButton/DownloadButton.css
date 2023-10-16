@@ -1,0 +1,22 @@
+.download-image{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.75em;
+    background-color: #fff;
+    height: 2.65em;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
+  }
+  

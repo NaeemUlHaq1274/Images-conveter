@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
+p{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+div {
+    text-align: start;
+    padding: 10px;
+}

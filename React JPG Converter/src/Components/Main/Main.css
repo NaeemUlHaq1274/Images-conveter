@@ -1,0 +1,205 @@
+.main-container{
+  height: 70vh;
+}
+.main-top{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    height: 10%;
+    width: 100%;
+  }
+  .main-top li input[type="radio"]:checked + label.converter-button {
+    background-color: #d44d3b; /* Black background color */
+    color: white; /* White text color for contrast, you can adjust this as needed */
+  }
+  .main-bottom{
+    border: 2px solid black;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 5px 16px -2px rgba(42, 115, 217, 0.2);
+    font-size: 1em;
+    padding: 1.6em 0;
+    user-select: none;
+    border-radius: 0.75em;
+
+}
+.upload-delete-images-container{
+    flex:20%;
+    flex:20%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.drag-drop-images-container{
+  flex: 60%;
+  overflow: auto;
+}
+
+.download-all-container{
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for the dropzone container */
+.dropzone {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    height: 100% ;
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    cursor: auto !important;
+    transition: border-color 0.3s ease;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  
+  /* Styling when a file is being dragged over the dropzone */
+  .dropzone.active {
+    border-color: #007bff; /* Change to your desired active border color */
+  }
+  
+  /* Styling for the file input (hidden) */
+  .dropzone input[type="file"] {
+    display: none;
+  }
+  
+  /* Styling for the text */
+  p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  /* Optional: Style the text differently when files are being dragged over */
+  .dropzone.active p {
+    color: #007bff; /* Change to your desired active text color */
+    font-weight: bold;
+  }
+
+  .images-container{
+    position: relative;
+    min-width: 200px;
+    max-width: 200px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #66646478;
+    border-radius: 5px
+
+  }
+
+  .empty-div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267); 
+    z-index: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .empty-div h1{
+    margin-bottom: 30px;
+  }
+  .empty-div p{
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .empty-div .cross-icon{
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+.dropzone img{
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////// */
+.converter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px; 
+    border: none;
+    /* border-radius: 20px;  */
+    text-align: center;
+    height: 40px;
+    background-color: #7c8f9c; /* Set a background color */
+    color: #fff; /* Set text color to white */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .converter-button:hover {
+    background-color: #404a50; 
+  }
+
+
+  input[type="radio"]{
+    display: none;
+  }
+  li{
+    list-style: none;
+  }

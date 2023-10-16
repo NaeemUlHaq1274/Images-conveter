@@ -1,0 +1,17 @@
+.converter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px; 
+    border: none;
+    /* border-radius: 20px;  */
+    text-align: center;
+    height: 40px;
+    background-color: #7c8f9c; /* Set a background color */
+    color: #fff; /* Set text color to white */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
